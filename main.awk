@@ -1,4 +1,4 @@
-#!/usr/bin/awk -f
+#!/usr/bin/env awk -f
 
 {
 if(FNR==1) {print "\nservice :",FILENAME};
